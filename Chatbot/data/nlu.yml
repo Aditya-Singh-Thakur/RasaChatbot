@@ -1,0 +1,65 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: name
+  examples: |
+    - My name is [Aditya](name)
+    - I am [Narveer](name)
+    - [Abhishek](name)
+    - This is [Divyanshu](name)
+    - [Vipin] this side
+
+- intent: email
+  examples: |
+    - This is my email abc@gmail.com
+    - My email is xyz@email.com
+    - qwerty@email.com
+
+- intent: phone_number
+  examples: |
+    - My number is 987654321
+    - 0123456789
+    - 5432167890 is my number
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: save
+  examples: |
+    - Yes
+    - Y
+
